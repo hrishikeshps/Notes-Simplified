@@ -1,3 +1,34 @@
-export function NoteForm(){
-    return <h1>Check Form</h1>
+import { Col, Form, Row, Stack } from "react-bootstrap";
+
+export function NoteForm() {
+    return (
+        <Form>
+            <Stack gap={5}>
+                <Row>
+                    <Col>
+                        <Form.Group controlId="title">
+                            <Form.Label>Title</Form.Label>
+                            <Form.Control required />
+                        </Form.Group>
+                    </Col>
+                    <Col>
+                        <Form.Group controlId="title">
+                            <Form.Label>Tags</Form.Label>
+                            <Form.Select required />
+                        </Form.Group>
+                    </Col>
+                    <Row>
+                        <Col>
+                            <Form.Group controlId="title">
+                                <Form.Label>Note Body</Form.Label>
+                                <Form.Control required />
+                            </Form.Group>
+                        </Col>
+                    </Row>
+
+                </Row>
+            </Stack>
+
+        </Form>
+    )
 }
