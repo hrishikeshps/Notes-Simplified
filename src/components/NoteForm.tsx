@@ -1,4 +1,5 @@
 import { Col, Form, Row, Stack } from "react-bootstrap";
+import CreatableReactSelect from "react-select/creatable";
 
 export function NoteForm() {
     return (
