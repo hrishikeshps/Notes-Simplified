@@ -15,7 +15,7 @@ export function NoteForm() {
                     <Col>
                         <Form.Group controlId="title">
                             <Form.Label>Tags</Form.Label>
-                            <Form.Select required />
+                            <CreatableReactSelect isMulti />
                         </Form.Group>
                     </Col>
                     <Row>
