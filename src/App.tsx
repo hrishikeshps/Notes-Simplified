@@ -7,6 +7,7 @@ import { useLocalStorage } from './service/useLocalStorage'
 import { useMemo } from 'react'
 import { v4 as uuidV4 } from 'uuid'
 import { NoteList } from './components/NoteList'
+import { NoteLayout } from './components/NoteLayout'
 
 export type Note = {
   id: string
