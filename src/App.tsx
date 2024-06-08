@@ -8,6 +8,7 @@ import { useMemo } from 'react'
 import { v4 as uuidV4 } from 'uuid'
 import { NoteList } from './components/NoteList'
 import { NoteLayout } from './components/NoteLayout'
+// import { HeaderContainer } from './layouts/HeaderContainer'
 
 export type Note = {
   id: string
@@ -59,6 +60,9 @@ function App() {
 
   return (
     <Container className="my-4">
+      {/* <HeaderContainer>
+        <h1>Hello World</h1>
+      </HeaderContainer> */}
       <Routes>
         <Route path='/' element={<NoteList notes={notesWithTags} availableTags={tags}/>} />
         <Route 
