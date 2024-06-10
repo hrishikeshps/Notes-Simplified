@@ -34,7 +34,7 @@ export function NoteList({availableTags, notes}: NoteListProps ) {
     return (
         <>
             <Row className="align-items-center mb-5">
-                <Col><h1>List</h1></Col>
+                {/* <Col><h1>List</h1></Col> */}
                 <Col xs="auto">
                     <Stack gap={2} direction="horizontal">
                         <Link to="/new">
